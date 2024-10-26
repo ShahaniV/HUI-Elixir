@@ -1,0 +1,44 @@
+[versions]
+agp = "8.3.2"
+colorpicker = "1.1.6"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+ui = "1.4.3"
+activityCompose = "1.9.1"
+material3Android = "1.2.1"
+runtimeAndroid = "1.6.8"
+uiGraphicsAndroid = "1.6.8"
+uiAndroid = "1.6.8"
+foundationLayoutAndroid = "1.6.8"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+uiToolingPreviewAndroid = "1.6.8"
+
+[libraries]
+colorpicker = { module = "com.github.duanhong169:colorpicker", version.ref = "colorpicker" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+runtime-android = { group = "androidx.compose.runtime", name = "runtime-android", version.ref = "runtimeAndroid" }
+ui-graphics-android = { group = "androidx.compose.ui", name = "ui-graphics-android", version.ref = "uiGraphicsAndroid" }
+ui-android = { group = "androidx.compose.ui", name = "ui-android", version.ref = "uiAndroid" }
+foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+ui-tooling-preview-android = { group = "androidx.compose.ui", name = "ui-tooling-preview-android", version.ref = "uiToolingPreviewAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

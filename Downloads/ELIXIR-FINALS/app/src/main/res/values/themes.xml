@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FaceColorAnalyzer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.FaceColorAnalyzer" parent="Base.Theme.FaceColorAnalyzer" />
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.BottomNavigation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF6750A4</item>
+        <item name="colorPrimaryVariant">#FF6750A4</item>
+        <item name="colorOnPrimary">#FF6750A4</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FF6750A4</item>
+        <item name="colorSecondaryVariant">#FF6750A4</item>
+        <item name="colorOnSecondary">#FF6750A4</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#FF6750A4</item>
+        <!-- Customize your theme here. -->
+        <item name="android:itemBackground">#FF6750A4</item>
+        <item name="itemRippleColor">#FF6750A4</item>
+    </style>
+
+    <!-- Custom style to remove the indicator (optional) -->
+    <style name="NoIndicator" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
